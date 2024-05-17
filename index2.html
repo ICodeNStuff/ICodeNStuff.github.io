@@ -14,9 +14,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
-<button onclick="alert('Te iubesc mami!')">Apasa aici</button>
+<center><button onclick="alert('Te iubesc mami!')" >Apasa aici</button></center>
 <audio controls autoplay>
-    <source src=" {{ url_for('static', filename='lamultiani.ogg') }} " type="audio/ogg">
+    <source src="lamultiani.ogg" type="audio/ogg">
 </audio>
 <style>
     button{
@@ -36,7 +36,7 @@
         top:10%;
     }
     html { 
-        background: url(" {{url_for('static', filename='background.jpg')}} ") no-repeat 
+        background: url("background.jpg") no-repeat 
           center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
